@@ -1,0 +1,821 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#"
+     xml:base="http://www.semanticweb.org/15643403/ontologies/2018/4/trf"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#consistOfSubdistrict -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#consistOfSubdistrict"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasAddress -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasAddress"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasCropLand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasCropLand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasDistrict -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasDistrict"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLocation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasOwner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasOwner">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasCropLand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasPlant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasPlant">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSubdistrict -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSubdistrict"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSynonym -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSynonym">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#isPlantedByFarmer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#isPlantedByFarmer">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasPlant"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#isSubdistrictOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#isSubdistrictOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#consistOfSubdistrict"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasAddress"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLatitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLatitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLocationGPS"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLineID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLineID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLocationGPS -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLocationGPS">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLongtitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLongtitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLocationGPS"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasPhoneNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasPhoneNumber"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSize -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSize"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Cereal_Grain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Cereal_Grain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Grain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crop_Land -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crop_Land">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Farmer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Farmer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผลไม้"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#GAP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#GAP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Practice_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Grain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Grain">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ธัญพืช"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Herb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Herb">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#สมุนไพร"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#News -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#News">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Officer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Officer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Practice_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"/>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#People -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#People">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Practice_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Practice_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Rice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Rice">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Cereal_Grain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Vegetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Vegetable">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Cereal_Grain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวสาลี -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวสาลี">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Cereal_Grain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวหอมมะลิ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวหอมมะลิ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวเจ้า -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวเจ้า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวเหนียว -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวเหนียว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวโพด -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวโพด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Cereal_Grain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวไรซ์เบอร์รี่ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวไรซ์เบอร์รี่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#จังหวัด -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#จังหวัด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำแหน่ง"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ดอก -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ดอก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำบล -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำบล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#อำเภอ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำแหน่ง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำแหน่ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่ว -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Grain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ธัญพืช -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ธัญพืช">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผล -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผลไม้ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผลไม้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ราก -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ราก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลำต้น -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลำต้น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#สมุนไพร -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#สมุนไพร">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หัว -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หัว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#อำเภอ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#อำเภอ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#จังหวัด"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ใบ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ใบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Banana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Banana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#กล้วย"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#C20493 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#C20493">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crop_Land"/>
+        <hasLongtitude rdf:datatype="&xsd;decimal">100.1363</hasLongtitude>
+        <hasLatitude rdf:datatype="&xsd;decimal">13.93554</hasLatitude>
+        <hasAddress>หมู่ 2</hasAddress>
+        <hasOwner rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Winai_Pinkaset"/>
+        <hasSubdistrict rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นิลเพชร"/>
+        <hasDistrict rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#บางเลน"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#GreenBean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#GreenBean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่ว"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Mulberries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Mulberries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Mulberry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Mulberry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Mulberry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#มัลเบอร์รี่"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Pomelo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Pomelo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ส้มโอ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Winai_Pinkaset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Winai_Pinkaset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Farmer"/>
+        <hasPhoneNumber rdf:datatype="&xsd;integer">064324785</hasPhoneNumber>
+        <hasLongtitude rdf:datatype="&xsd;decimal">100.1363</hasLongtitude>
+        <hasLatitude rdf:datatype="&xsd;decimal">13.93554</hasLatitude>
+        <hasLineID>Winai1276</hasLineID>
+        <hasAddress>เลขที่ 14 หมู่ 9</hasAddress>
+        <hasName>วินัย ปิ่นเกษตร</hasName>
+        <hasCropLand rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#C20493"/>
+        <hasPlant rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่วงอก"/>
+        <hasSubdistrict rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นิลเพชร"/>
+        <hasPlant rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หม่อน"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#กระชายดำ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#กระชายดำ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Herb"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#กระเทียม -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#กระเทียม">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หัว"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#กล้วย -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#กล้วย">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ขมิ้นชัน -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ขมิ้นชัน">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Herb"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ขิง -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ขิง">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลำต้น"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ขึ้นฉ่าย -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ขึ้นฉ่าย">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ใบ"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#คื่นช่าย"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข่า -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข่า">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลำต้น"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#คะน้า -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#คะน้า">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ใบ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#คื่นช่าย -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#คื่นช่าย">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ใบ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่วงอก -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่วงอก">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่ว"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นครปฐม -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นครปฐม">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#จังหวัด"/>
+        <hasDistrict rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#บางเลน"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นิลเพชร -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นิลเพชร">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำบล"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#บัวบก -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#บัวบก">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Herb"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#บางเลน -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#บางเลน">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#อำเภอ"/>
+        <isSubdistrictOf rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นครปฐม"/>
+        <consistOfSubdistrict rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นิลเพชร"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผักกาดหอม -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผักกาดหอม">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ใบ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ฟ้าทะลายโจร -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ฟ้าทะลายโจร">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Herb"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#มัลเบอร์รี่ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#มัลเบอร์รี่">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลูกหม่อน -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลูกหม่อน">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit"/>
+        <hasSynonym rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#มัลเบอร์รี่"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#วังตะกู -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#วังตะกู">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำบล"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ส้มโอ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ส้มโอ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หน่อไม้ฝรั่ง -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หน่อไม้ฝรั่ง">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลำต้น"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หม่อน -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หม่อน">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit"/>
+        <hasSynonym rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลูกหม่อน"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หอมมะลิ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หอมมะลิ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หอมหัวใหญ่ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หอมหัวใหญ่">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หัว"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หอมแดง -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หอมแดง">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หัว"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#เทอร์นิพ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#เทอร์นิพ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ราก"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#เมือง -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#เมือง">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#อำเภอ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/15643403/ontologies/2018/4/trf#แครอท -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#แครอท">
+        <rdf:type rdf:resource="http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ราก"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
