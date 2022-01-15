@@ -1,0 +1,515 @@
+[ {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Banana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#กล้วย"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#C20493",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crop_Land" ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasAddress" : [ {
+    "@value" : "หมู่ 2"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasDistrict" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#บางเลน"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLatitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "13.93554"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLongtitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "100.1363"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasOwner" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Winai_Pinkaset"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSubdistrict" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นิลเพชร"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Cereal_Grain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Grain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crop_Land",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Farmer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผลไม้"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#GAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Practice_Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Grain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ธัญพืช"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#GreenBean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่ว" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Herb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#สมุนไพร"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Mulberries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Mulberry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Mulberry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#มัลเบอร์รี่"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#News",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Officer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Practice_Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#People",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Pomelo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ส้มโอ"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Practice_Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Rice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Cereal_Grain"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Vegetable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Winai_Pinkaset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Farmer" ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasAddress" : [ {
+    "@value" : "เลขที่ 14 หมู่ 9"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasCropLand" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#C20493"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLatitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "13.93554"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLineID" : [ {
+    "@value" : "Winai1276"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLongtitude" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "100.1363"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasName" : [ {
+    "@value" : "วินัย ปิ่นเกษตร"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasPhoneNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "064324785"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasPlant" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่วงอก"
+  }, {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หม่อน"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSubdistrict" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นิลเพชร"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#consistOfSubdistrict",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#isSubdistrictOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasCropLand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasOwner"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasDistrict",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLatitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLocationGPS"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLineID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLocationGPS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLongtitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasLocationGPS"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasOwner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasPhoneNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasPlant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#isPlantedByFarmer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSubdistrict",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#isPlantedByFarmer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#isSubdistrictOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#กระชายดำ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Herb" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#กระเทียม",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หัว" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#กล้วย",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ขมิ้นชัน",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Herb" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ขิง",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลำต้น" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ขึ้นฉ่าย",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ใบ" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#คื่นช่าย"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข่า",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลำต้น" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Cereal_Grain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวสาลี",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Cereal_Grain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวหอมมะลิ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวเจ้า",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวเหนียว",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวโพด",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Cereal_Grain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าวไรซ์เบอร์รี่",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#คะน้า",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ใบ" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#คื่นช่าย",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ใบ" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#จังหวัด",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำแหน่ง"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ดอก",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำบล",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#อำเภอ"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำแหน่ง",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Organic_GAP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่ว",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Grain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่วงอก",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ถั่ว" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ธัญพืช",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นครปฐม",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#จังหวัด" ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasDistrict" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#บางเลน"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นิลเพชร",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำบล" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#บัวบก",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Herb" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#บางเลน",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#อำเภอ" ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#consistOfSubdistrict" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นิลเพชร"
+  } ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#isSubdistrictOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#นครปฐม"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผล",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผลไม้",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผักกาดหอม",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ใบ" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ฟ้าทะลายโจร",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Herb" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#มัลเบอร์รี่",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ราก",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลำต้น",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลูกหม่อน",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit" ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSynonym" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#มัลเบอร์รี่"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#วังตะกู",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ตำบล" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#สมุนไพร",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Crops"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ส้มโอ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หน่อไม้ฝรั่ง",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลำต้น" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หม่อน",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#Fruit" ],
+  "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#hasSynonym" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ลูกหม่อน"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หอมมะลิ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ข้าว" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หอมหัวใหญ่",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หัว" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หอมแดง",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หัว" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#หัว",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#อำเภอ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#จังหวัด"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#เทอร์นิพ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ราก" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#เมือง",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#อำเภอ" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#แครอท",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ราก" ]
+}, {
+  "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ใบ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/15643403/ontologies/2018/4/trf#ผัก"
+  } ]
+} ]
